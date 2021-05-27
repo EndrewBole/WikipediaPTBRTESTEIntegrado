@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group '/Brasil/wiki/org.pt.wikipedia'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation group: 'info.cukes', name: 'cucumber-junit', version: '1.2.5'
+    implementation group: 'info.cukes', name: 'cucumber-java', version: '1.2.5'
+    implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+    testImplementation group: 'info.cukes', name: 'cucumber-picocontainer', version: '1.2.5'
+    implementation group: 'com.vimalselvam', name:'cucumber-extentsreport', version: '3.1.1'
+}
