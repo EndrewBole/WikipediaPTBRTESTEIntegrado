@@ -24,4 +24,10 @@ dependencies {
 
     implementation group: 'org.freemarker', name: 'freemarker', version: '2.3.28'
 
+    task regressionTests(type: Test){
+        include '**/Runner*'
+    }
+
 }
+
+
