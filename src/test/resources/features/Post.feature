@@ -1,5 +1,4 @@
-
-  #encoding: utf8
+#encoding: utf8
 Feature: Consulta
 
   Scenario: Consultar Ovo de Pascoa
