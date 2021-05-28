@@ -14,6 +14,7 @@ import org.junit.runner.RunWith;
                 "pretty",
                 "html:target/relatorioSimples.html",
                 "json:target/relatorioSimples.json",
+                "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/dashboard.html"
 
         }
 
